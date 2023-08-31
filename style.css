@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+    /* transition: 2s; */
+}
+
+body{
+    text-align: center;
+    font-size: 20px;
+    color: #eaeaea;
+    background-color: #333;
+}
+
+h1{
+    letter-spacing: 5px;
+}
+
+#mulai{
+    width: 200px;
+    height: 50px;
+    margin-top: 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    /* color: ; */
+}
+
+.container{
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    /* border: 3px solid black; */
+    /* background-color: aqua; */
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.kamu{
+    display: flex;
+    justify-content: space-around;
+}
+
+div{
+    /* border: 3px solid black; */
+    /* margin: 20px; */
+    border-radius: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.result{
+    height: 100px;
+    background-color: blueviolet;
+    color: #333;
+    line-height: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.hasil{
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.show{
+    /* height: 100px; */
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.show div{
+    border: 1px solid #eaeaea;
+    font-size: 150px;
+    height: 200px;
+    width: 200px;
+    /* background-color: salmon; */
+    line-height: 200px;
+}
+
+.pilih{
+    /* height: 100px; */
+    display: flex;
+    justify-content: space-around;
+    line-height: 100px;
+}
+
+.pilih div{
+    height: 100px;
+    width: 100px;
+    /* background-color: violet; */
+    border: 1px solid #eaeaea;
+    cursor: pointer;
+    transition: .3s;
+    margin: 30px;
+}
+
+.pilih div:hover{
+    transform: scale(1.5);
+}
+
